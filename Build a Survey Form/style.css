@@ -1,0 +1,48 @@
+body {
+    display: block;
+    text-align: center;
+    background-color: #a9d7d1;
+}
+#main {
+    width: 75%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+    padding-top: 20px;
+    background-color: white;
+}
+
+#title {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    background-color: #a9d7d1;
+    color: #515254;
+    padding-top: 10px;
+}
+
+table {
+    display: flex;
+    justify-self: center;
+    text-align: right;
+}
+
+textarea {
+    margin-left: 10px;
+}
+input[type="text"] {
+    border: 1px solid #B0B3C4;
+    width: 192px;
+}
+input[type="email"] {
+    border: 1px solid #B0B3C4;
+    width: 192px;
+}
+input[type="number"] {
+    border: 1px solid #B0B3C4;
+    width: 192px;
+}
+#dropdown {
+    border: 1px solid #B0B3C4;
+    width: 192px;
+    height: 30px;
+}
