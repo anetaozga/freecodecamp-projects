@@ -1,6 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: #073642;
-    background: linear-gradient(50deg, #052730 0%, #073642 100%)
+    background: linear-gradient(50deg, #052730 0%, #073642 100%);
 }
 #navbar {
     display: flex;
@@ -64,7 +67,7 @@ p{
     margin: 0 auto;
 }
 .project-image {
-    height:calc(100%-7rem);
+    height:calc(100% - 7rem);
     width: 100%;
     object-fit: cover;
 }
@@ -97,10 +100,26 @@ p{
     color: white;
     padding: 20px;
     font-weight: 400;
+    text-shadow: 2px 2px 1px #1f1f1f;;
 }
 .contact-details:hover {
     color: white;
+    transform: translateY(8px);
+    transition: transform 0.3s ease-out;
 }
 i {
     margin-right: 3px;
+}
+footer p{
+    font-size: 1rem;
+    margin: 1rem;
+    text-align: center;
+    color: #CF9C00;;
+}
+footer a {
+    color: #CF9C00;
+    font-weight: bold;
+}
+footer a:hover {
+    color: #CF9C00;
 }
